@@ -15,6 +15,7 @@ public class LumaRunnerClass extends BaseClassLuma{
 	@BeforeClass
 	public static void first() {
 		BrowserLanuch();
+		maximize();
 
 	}
 
