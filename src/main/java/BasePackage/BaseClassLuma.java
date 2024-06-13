@@ -10,10 +10,13 @@ public class BaseClassLuma {
 	public static void BrowserLanuch() {
 		
 		driver = new ChromeDriver();
-		driver.manage().window().maximize();
+		
 	}
 	public static void getURL(String url) {
 		driver.get(url);
+	}
+	public static void maximize() {
+		driver.manage().window().maximize();
 	}
 	
 	
